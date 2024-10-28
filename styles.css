@@ -1,0 +1,52 @@
+body{
+    background-color:azure;
+    color: #10100d;
+    font-family: "Arial Black";
+
+
+}
+
+th, tr, td, tbody{
+    border: solid 1px black;
+}
+table {
+    border-collapse: collapse;
+
+}
+
+h1, h2, th{
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+    padding: 20px;
+}
+.container{
+    background-color: darkcyan;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+.todo-form{
+    text-align: center;
+}
+.todo-section{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    color: #f30661;
+    width: 70px;
+    height: 30px;
+}
+.complete{
+    color: white;
+}
+#description{
+    width: 200px;
+
+}
+#title{
+      width: 200px;
+}
